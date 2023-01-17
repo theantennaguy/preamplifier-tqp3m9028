@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/ricardogoncalves/Documents/GitHub/preamplifier-tqp3m9028/preamplifier-tqp3m9028/preamplifier-tqp3m9028.kicad_sch</source>
+    <date>2023 January 17, Tuesday 19:12:21</date>
+    <tool>Eeschema (6.0.6-0)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Pre-amplifier board for Qorvo TQP3M9028</title>
+        <company>The Antenna Guy</company>
+        <rev>1.0</rev>
+        <date>2023-01-17</date>
+        <source>preamplifier-tqp3m9028.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C101">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value=""/>
+      <property name="Part Number" value=""/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="preamplifier-tqp3m9028.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9b40f9f3-8b4f-44a5-9daf-df7dc95b26a8</tstamps>
+    </comp>
+    <comp ref="C102">
+      <value>100pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value=""/>
+      <property name="Part Number" value=""/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="preamplifier-tqp3m9028.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b65c0103-2296-4238-82cf-7c00b1facf2a</tstamps>
+    </comp>
+    <comp ref="C103">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value=""/>
+      <property name="Part Number" value=""/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="preamplifier-tqp3m9028.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>66a7acc0-479b-47ed-ba15-704ea771b96b</tstamps>
+    </comp>
+    <comp ref="C104">
+      <value>100pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value=""/>
+      <property name="Part Number" value=""/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="preamplifier-tqp3m9028.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c4a5c8c0-a771-48e0-9d6d-b213f197831d</tstamps>
+    </comp>
+    <comp ref="C105">
+      <value>10nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value=""/>
+      <property name="Part Number" value=""/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="preamplifier-tqp3m9028.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b527d935-34a7-433e-8afa-7968295dc9d8</tstamps>
+    </comp>
+    <comp ref="C106">
+      <value>100pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value=""/>
+      <property name="Part Number" value=""/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="preamplifier-tqp3m9028.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a908ae5b-a61a-4a6a-97a6-e3ffa14e5d90</tstamps>
+    </comp>
+    <comp ref="J101">
+      <value>Barrel_Jack_Switch</value>
+      <footprint>Connector_BarrelJack:BarrelJack_Wuerth_6941xx301002</footprint>
+      <libsource lib="Connector" part="Barrel_Jack_Switch" description="DC Barrel Jack with an internal switch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="preamplifier-tqp3m9028.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>99ca7686-f130-4bd8-9628-35caf78b78b6</tstamps>
+    </comp>
+    <comp ref="J102">
+      <value>Conn_Coaxial</value>
+      <footprint>CONSMA002-L_SMA_COAX_CONN:LINX_CONSMA002-L</footprint>
+      <datasheet> ~</datasheet>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="preamplifier-tqp3m9028.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8a36e594-cc28-49c4-8988-874ac1f0ac0c</tstamps>
+    </comp>
+    <comp ref="J103">
+      <value>Conn_Coaxial</value>
+      <footprint>CONSMA002-L_SMA_COAX_CONN:LINX_CONSMA002-L</footprint>
+      <datasheet> ~</datasheet>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="preamplifier-tqp3m9028.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c9d215a0-a812-4060-9881-ffe8cdd861da</tstamps>
+    </comp>
+    <comp ref="L101">
+      <value>68nH</value>
+      <footprint>Inductor_SMD:L_0603_1608Metric</footprint>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Manufacturer" value=""/>
+      <property name="Part Number" value=""/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="preamplifier-tqp3m9028.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6ea6e8c3-7dd7-43a6-8f11-80cf1c0df279</tstamps>
+    </comp>
+    <comp ref="TP101">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="preamplifier-tqp3m9028.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>49047d42-6ba9-403e-ad37-6447e135e680</tstamps>
+    </comp>
+    <comp ref="TP102">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="preamplifier-tqp3m9028.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6bbbb71b-1fc5-4b54-9335-8313839bc42c</tstamps>
+    </comp>
+    <comp ref="U101">
+      <value>AMS1117-5.0</value>
+      <footprint>Package_TO_SOT_SMD:SOT-223-3_TabPin2</footprint>
+      <datasheet>http://www.advanced-monolithic.com/pdf/ds1117.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C347223</field>
+        <field name="Manufacturer">UMW</field>
+        <field name="Part Number">AMS1117-5.0</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="AMS1117-5.0" description="1A Low Dropout regulator, positive, 5.0V fixed output, SOT-223"/>
+      <property name="Manufacturer" value="UMW"/>
+      <property name="Part Number" value="AMS1117-5.0"/>
+      <property name="LCSC" value="C347223"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="preamplifier-tqp3m9028.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>85521800-4fe4-4f5f-b40a-02998f61a28e</tstamps>
+    </comp>
+    <comp ref="U102">
+      <value>TQP3M9028</value>
+      <footprint>Package_TO_SOT_SMD:SOT-89-3</footprint>
+      <datasheet>https://www.qorvo.com/products/d/da005528</datasheet>
+      <libsource lib="RF_Amplifier" part="SPF5189Z" description="50MHz to 4000MHz, GaAs pHEMT low noise MMIC amplifier, SOT-89"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="preamplifier-tqp3m9028.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>72a787da-17b4-4bb0-86e2-6cecf082184b</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Barrel_Jack_Switch">
+      <description>DC Barrel Jack with an internal switch</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>BarrelJack*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Barrel_Jack_Switch</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_Coaxial">
+      <description>coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)</description>
+      <docs> ~</docs>
+      <footprints>
+        <fp>*BNC*</fp>
+        <fp>*SMA*</fp>
+        <fp>*SMB*</fp>
+        <fp>*SMC*</fp>
+        <fp>*Cinch*</fp>
+        <fp>*LEMO*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_Coaxial</field>
+        <field name="Datasheet"> ~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="In" type="passive"/>
+        <pin num="2" name="Ext" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RF_Amplifier" part="SPF5189Z">
+      <description>50MHz to 4000MHz, GaAs pHEMT low noise MMIC amplifier, SOT-89</description>
+      <docs>www.qorvo.com/products/d/da001910</docs>
+      <footprints>
+        <fp>SOT?89*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SPF5189Z</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-89-3</field>
+        <field name="Datasheet">www.qorvo.com/products/d/da001910</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="AMS1117-5.0">
+      <description>1A Low Dropout regulator, positive, 5.0V fixed output, SOT-223</description>
+      <docs>http://www.advanced-monolithic.com/pdf/ds1117.pdf</docs>
+      <footprints>
+        <fp>SOT?223*TabPin2*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AMS1117-5.0</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-223-3_TabPin2</field>
+        <field name="Datasheet">http://www.advanced-monolithic.com/pdf/ds1117.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="RF_Amplifier">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//RF_Amplifier.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Regulator_Linear.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="C101" pin="2" pintype="passive"/>
+      <node ref="C103" pin="2" pintype="passive"/>
+      <node ref="C104" pin="2" pintype="passive"/>
+      <node ref="C105" pin="2" pintype="passive"/>
+      <node ref="J101" pin="2" pintype="passive"/>
+      <node ref="J101" pin="3" pintype="passive"/>
+      <node ref="J102" pin="2" pinfunction="Ext" pintype="passive"/>
+      <node ref="J103" pin="2" pinfunction="Ext" pintype="passive"/>
+      <node ref="TP102" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U101" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U102" pin="2" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="2" name="Net-(C101-Pad1)">
+      <node ref="C101" pin="1" pintype="passive"/>
+      <node ref="J101" pin="1" pintype="passive"/>
+      <node ref="U101" pin="3" pinfunction="VI" pintype="power_in"/>
+    </net>
+    <net code="3" name="Net-(C102-Pad1)">
+      <node ref="C102" pin="1" pintype="passive"/>
+      <node ref="J102" pin="1" pinfunction="In" pintype="passive"/>
+    </net>
+    <net code="4" name="Net-(C102-Pad2)">
+      <node ref="C102" pin="2" pintype="passive"/>
+      <node ref="U102" pin="1" pintype="input"/>
+    </net>
+    <net code="5" name="Net-(C103-Pad1)">
+      <node ref="C103" pin="1" pintype="passive"/>
+      <node ref="C104" pin="1" pintype="passive"/>
+      <node ref="C105" pin="1" pintype="passive"/>
+      <node ref="L101" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TP101" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U101" pin="2" pinfunction="VO" pintype="power_out"/>
+    </net>
+    <net code="6" name="Net-(C106-Pad1)">
+      <node ref="C106" pin="1" pintype="passive"/>
+      <node ref="L101" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U102" pin="3" pintype="output"/>
+    </net>
+    <net code="7" name="Net-(C106-Pad2)">
+      <node ref="C106" pin="2" pintype="passive"/>
+      <node ref="J103" pin="1" pinfunction="In" pintype="passive"/>
+    </net>
+  </nets>
+</export>

@@ -1,0 +1,10 @@
+Comment,Designator,Footprint,LCSC
+"10uF","C101,C103","Capacitor_SMD:C_0805_2012Metric",""
+"100pF","C102,C104,C106","Capacitor_SMD:C_0603_1608Metric",""
+"10nF","C105","Capacitor_SMD:C_0603_1608Metric",""
+"Barrel_Jack_Switch","J101","Connector_BarrelJack:BarrelJack_Wuerth_6941xx301002",""
+"Conn_Coaxial","J102,J103","CONSMA002-L_SMA_COAX_CONN:LINX_CONSMA002-L",""
+"68nH","L101","Inductor_SMD:L_0603_1608Metric",""
+"TestPoint","TP101,TP102","TestPoint:TestPoint_Pad_D1.5mm",""
+"AMS1117-5.0","U101","Package_TO_SOT_SMD:SOT-223-3_TabPin2","C347223"
+"TQP3M9028","U102","Package_TO_SOT_SMD:SOT-89-3",""
